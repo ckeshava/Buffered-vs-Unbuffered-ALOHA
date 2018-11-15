@@ -11,6 +11,7 @@ This paper aims to explore the advantages of using ALOHA in media having a high 
 
 Previously, Abramson had only derived the throughput performance under the assumption of infinite number of active nodes, the traffic following poisson’s distribution and every node producing traffic at random intervals. In this paper, the authors have mathematically derived the throughput performance for a finite number of active nodes with and without buffering. The experimental and analytical/simulation results  go hand-in-hand with each other. The collisions of packets has been classified into two types, and the effect of buffering in the ALOHA protocol is analysed for the two types of collisions separately.
 <hr>
+
 ### Objectives:
 * Implement the buffered version of ALOHA and compare the throughput for wide range of finite active nodes to facilitate asymptotic analysis.
 * Implement the un-buffered version of ALOHA and compare the throughput for wide range of finite active nodes to facilitate asymptotic analysis.
@@ -28,7 +29,7 @@ Previously, Abramson had only derived the throughput performance under the assum
 #### Unbuffered analysis of ALOHA:
 
 ##### unbuffered_theoritical_analysis.m:<br>
-This code contains the implementation of Offered Load(G) versus Transmitted Load(T) and Throughput(S) versus Transmtted Load(T) analysis for different values of active nodes(N) = 2, 5, 10 and INF. All these graphs aare plotted on the same figure(unbuffered-ALOHA.jpg).
+This code contains the implementation of Offered Load(G) versus Transmitted Load(T) and Throughput(S) versus Transmtted Load(T) analysis for different values of active nodes(N) = 2, 5, 10 and INF. All these graphs are plotted on the same figure(unbuffered-ALOHA.jpg).
 
 The obtained graph for different values of N is as follows:<br><br>
 ![T vs G, Unbuffered ALOHA](unbuffered-ALOHA-T-vs-G.jpg)
