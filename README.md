@@ -77,7 +77,7 @@ Each of the folders contain the following files:
 
 ![Stats of Unbuffered ALOHA, N = 10](./five_unbuff_awk.png) <br><center><b> Stats of Unbuffered ALOHA, N = 10 </b></center><br><br>
 
-### Challenges faced in Simulation scripts:
+### Challenges faced in parsing Simulation scripts:
 I faced a few challenges in reproducing the results of the original research paper. They are as follows:
 1. I am not aware of any facility in ns2 to ensure that packets are generated in a random fashion, among all the nodes in a network.
 2. I had to set the connections between two nodes manually, ie. set the tcp/usp protocols, then bind the nodes to  the agents, and then bind two agents together. This process became more tedious with increasing number of active nodes, N = 5 and N = 10.
